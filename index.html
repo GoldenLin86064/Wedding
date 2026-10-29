@@ -500,23 +500,23 @@
         <strong>日期：</strong><span class="no-wrap">2027年1月2日（星期六）</span>
       </div>
       <div class="v-card-detail">
-        <strong>時間：</strong><span class="no-wrap">18:30 入席</span>
+        <strong>時間：</strong><span class="no-wrap">18:00 入席</span>｜<span class="no-wrap">18:31 開席</span>
       </div>
       <div class="v-card-detail">
-        <strong>地點：</strong><span class="no-wrap">台北萬豪酒店 Marriott Taipei</span>
+        <strong>地點：</strong><span class="no-wrap">台南大員皇冠假日酒店 2樓宴會廳</span>
       </div>
       <div class="v-card-detail">
-        <strong>地址：</strong><span class="no-wrap">台北市中山區樂群二路199號</span>
+        <strong>地址：</strong><span class="no-wrap">臺南市安平區州平路289號</span>
       </div>
     </div>
 
-    <!-- 摺疊式交通指引 -->
+    <!-- 摺疊式交通指引 (移除捷運，改為高鐵/台鐵/公車/自駕) -->
     <div class="accordion">
       <div class="accordion-item">
-        <button class="accordion-header">捷運資訊 METRO</button>
+        <button class="accordion-header">高鐵 / 台鐵資訊 TRAIN & HSR</button>
         <div class="accordion-content">
           <div class="accordion-body">
-            搭乘文湖線至<span class="no-wrap">「劍南路站」</span>3號出口，步行約 <span class="no-wrap">8-10 分鐘</span>即可抵達<span class="no-wrap">台北萬豪酒店</span>。
+            搭乘高鐵至<span class="no-wrap">「高鐵台南站」</span>或台鐵至<span class="no-wrap">「台南火車站」</span>後，建議轉乘計程車直達<span class="no-wrap">台南大員皇冠假日酒店</span>（高鐵站出發車程約 <span class="no-wrap">35-40 分鐘</span>；火車站出發車程約 <span class="no-wrap">20 分鐘</span>）。
           </div>
         </div>
       </div>
@@ -525,7 +525,7 @@
         <button class="accordion-header">公車資訊 BUS</button>
         <div class="accordion-content">
           <div class="accordion-body">
-            搭乘至<span class="no-wrap">「敬業三路二街口」</span>或<span class="no-wrap">「濱江國中站」</span>下車，步行約 <span class="no-wrap">3-5 分鐘</span>。
+            搭乘台南市公車 <span class="no-wrap">2 路</span> 或 <span class="no-wrap">99 路</span>（台灣好行觀光公車）至<span class="no-wrap">「大員皇冠假日酒店站」</span>或<span class="no-wrap">「安平古堡站」</span>下車，步行即可抵達飯店。
           </div>
         </div>
       </div>
@@ -534,8 +534,8 @@
         <button class="accordion-header">自行開車 / 停車 PARKING</button>
         <div class="accordion-content">
           <div class="accordion-body">
-            飯店設有地下地下停車場，賓客可享免費停車折抵（請於賓客簽到處領取停車券）。<br>
-            地址：<span class="no-wrap">台北市中山區樂群二路199號</span>。
+            開車前往請導航至：<span class="no-wrap">臺南市安平區州平路289號</span>。<br>
+            飯店設有地下專用停車場，賓客可享免費停車折抵（請於婚宴簽到處領取停車折抵卡/券）。
           </div>
         </div>
       </div>
@@ -626,8 +626,8 @@
       slides[currentSlide].classList.add('active');
     }, 5000);
 
-    // 2. 藝術感倒數計時器 (目標：2027年1月2日 18:30)
-    const targetDate = new Date('2027-01-02T18:30:00').getTime();
+    // 2. 藝術感倒數計時器 (目標：2027年1月2日 18:31 開席)
+    const targetDate = new Date('2027-01-02T18:31:00').getTime();
 
     function updateCountdown() {
       const now = new Date().getTime();
